@@ -32,7 +32,7 @@ Built with scalability and clean architecture in mind, this project serves as th
 
 1. **Clone the repository**  
 ```bash
-git clone https://github.com/your-username/whatsapp-business-message-collector.git
+https://github.com/nicolsrojas/whatsapp-business-message-collector.git
 cd whatsapp-business-message-collector
 ```
 
