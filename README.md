@@ -25,7 +25,6 @@ Built with scalability and clean architecture in mind, this project serves as th
 - **Express** for API/webhook handling
 - **Firebase Admin SDK** for Realtime Database
 - Clean Architecture principles
-- (Optional) TypeScript for better DX (TBD)
 
 ---
 
