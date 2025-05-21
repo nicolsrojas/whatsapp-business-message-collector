@@ -43,7 +43,7 @@ cd whatsapp-business-message-collector
 npm install
 ```
 
-3. **Install dependencies**
+3. **Configure environment variables**
 
 ```env
 PORT=3000
