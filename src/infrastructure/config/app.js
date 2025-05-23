@@ -6,13 +6,11 @@ dotenv.config();
 module.exports = {
   firebase: {
     databaseURL: process.env.FIREBASE_DATABASE_URL,
-    serviceAccount: process.env.FIREBASE_SERVICE_ACCOUNT
+    serviceAccount: process.env.FIREBASE_SERVICE_ACCOUNT,
+    serviceAccountBase64: process.env.FIREBASE_SERVICE_ACCOUNT_BASE64,
   },
   whatsapp: {
     verifyToken: process.env.WHATSAPP_VERIFY_TOKEN,
-    appSecret: process.env.WHATSAPP_APP_SECRET,
-    phoneNumberId: process.env.WHATSAPP_PHONE_NUMBER_ID,
-    accessToken: process.env.WHATSAPP_ACCESS_TOKEN
   },
   server: {
     port: process.env.PORT || 3000,
