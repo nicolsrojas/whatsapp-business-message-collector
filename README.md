@@ -8,7 +8,6 @@ Built with scalability and clean architecture in mind, this project serves as th
 ## Features
 
 - Receives incoming messages via [Meta's WhatsApp Cloud API Webhooks](https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks).
-- Receives outgoing messages from a third-party system via custom webhooks.
 - Stores all messages in a **Firebase Realtime Database**.
 - Clean and modular architecture for long-term maintainability.
 - Ready to evolve into a full chat backend (e.g. WhatsApp Web-style UI).
@@ -16,15 +15,12 @@ Built with scalability and clean architecture in mind, this project serves as th
 
 ---
 
-## Folder Structure
-
-
 ## Tech Stack
 
 - **Node.js** (v18+)
-- **Express** for API/webhook handling
+- **Express** for webhook handling
 - **Firebase Admin SDK** for Realtime Database
-- Clean Architecture principles
+- **Clean Architecture** principles
 
 ---
 
@@ -58,10 +54,10 @@ npm start
 
 ## 📩 Webhook Endpoints
 
-| Route                  | Description                                      |
-|------------------------|--------------------------------------------------|
-| `POST /webhook/incoming` | Receives WhatsApp incoming messages from Meta    |
-| `POST /webhook/outgoing` | Receives outgoing messages from a third-party service |
+| Route           | Description                                      |
+|-----------------|--------------------------------------------------|
+| `POST /webhook` | Receives WhatsApp incoming messages from Meta    |
+
 
 
 

@@ -1,0 +1,40 @@
+{
+  "name": "whatsapp-business-message-collector",
+  "version": "1.0.0",
+  "description": "Sistema para registrar mensajes entrantes y salientes de WhatsApp en Firebase",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "whatsapp",
+    "meta",
+    "api",
+    "firebase",
+    "webhook",
+    "clean-architecture"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
