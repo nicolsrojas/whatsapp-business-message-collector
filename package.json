@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-business-message-collector",
   "version": "1.0.0",
-  "description": "Sistema para registrar mensajes entrantes y salientes de WhatsApp en Firebase",
+  "description": "Webhook for receiving WhatsApp messages and storing them in Firebase Realtime Database.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -35,6 +35,6 @@
     "nodemon": "^3.0.3"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "16.x"
   }
 }
